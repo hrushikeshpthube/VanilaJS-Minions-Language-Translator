@@ -1,11 +1,22 @@
 textarea{
 
-    width:50%;
-    padding:auto;
-    margin:auto;
+    display: block;
+    width:80%;
+    height:10vh;
+    padding:1 rem;
+    margin:1 rem;
 
 }
 button{
     padding:auto;
     margin:auto;
+}
+#output{
+   
+    border: 1px solid black;
+    display: block;
+    width:80%;
+    height:10vh;
+    padding:1 rem;
+    margin:1 rem;
 }

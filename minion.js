@@ -9,15 +9,21 @@
 
 var btntranslate = document.querySelector("#btn-translate");
 var txtinput=document.querySelector("#txt-input")
-console.log(btntranslate);
-console.log(txtinput);
+var divoutput=document.querySelector("#output")
+// console.log(divoutput);
+// console.log(btntranslate);
+// console.log(txtinput);
+
 
 
 btntranslate.addEventListener("click",  clickEventHandler)
 
 function clickEventHandler() {
-    console.log("clicked");
-    console.log("Input ",txtinput.value);
-}
+    // console.log("clicked");
+    // console.log("Input ",divoutput.value);
+    // divoutput.innerHTML("jbjbsbbs nnss "+"This is output")
+
+    divoutput.innerHTML="absbsb"+txtinput.value;
+}   
    
 
